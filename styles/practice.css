@@ -38,6 +38,7 @@ header{
     font-size: 20px;
     font-weight: 500;
     border: none;
+    margin-top: 20px;
 }
 
 /* Donate today section */
@@ -49,11 +50,13 @@ header{
     font-weight: 700;
     margin-top: 150px;
     margin-bottom: 20px;
+    text-align: center;
 }
 .section-paragraph{
     margin-top: 20px;
     margin-bottom: 50px;
     font-size: 30px;
+    text-align: center;
 }
 .amount-select{
     display: flex;
@@ -66,8 +69,14 @@ header{
     padding: 40px 50px;
     margin: 20px;
     font-size: 30px;
-    background-color: gray;
-    border: none;
+    background-color: lightgray;
+
+}
+.click{
+    border-style: solid;
+    border-radius: 3px;
+    border-color: red;
+    color: red;
 }
 .other-amount{
     margin-top: 50px;
@@ -84,4 +93,44 @@ header{
     border: 1px solid black;
     margin: auto;
     margin-bottom: 30px;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+}
+.project{
+    padding: 55px 25px;
+    margin-left: 35px;
+}
+.project img{
+    margin-bottom: 30px;
+}
+.project h4{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.project p{
+    width: 200px;
+}
+.blogs{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    align-items: center;
+    gap: 83 px;
+}
+.blog h2{
+    font-size: 42px;
+    font-weight: 700;
+    width: 480px;
+}
+.blog p{
+    width: 450px;
+    margin: 20 0px;
+
+}
+.blog-img img{
+    width: 572px;
+    margin: 0 30px;
 }
